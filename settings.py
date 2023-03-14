@@ -33,4 +33,4 @@ DATABASES = {
 }
 """
 
-INSTALLED_APPS = ("bank_database",)
+INSTALLED_APPS = ['bank_database']
