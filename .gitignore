@@ -1,4 +1,6 @@
 *.pyc
-/migrations/
-/__pycache__/
- 
+/migrations/*
+/__pycache__/*
+zzz.py
+delete_all_records.py
+
