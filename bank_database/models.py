@@ -30,5 +30,13 @@ class Account(models.Model):
         return f"{self.owner.f_name} Ac.No:({self.account_number})  Type: {self.account_type}"
 
 
-# class Statement(models.Model):
-#     st_owner = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='account')
+class Statement(models.Model):
+    st_owner = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='accounts')
+    transaction_date = models.DateField(auto_now_add=True)
+    description = models.CharField(max_length=30)
+    debited = models.FloatField()
+    created = models.FloatField()
+    balance = models.FloatField()
+
+    def __str__(self):
+        return f"{self.accounts.users.f_name} {self.balance}"
