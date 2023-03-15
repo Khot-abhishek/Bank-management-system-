@@ -22,6 +22,7 @@ from bank_database.models import *
 ############################################################################
 
 from window_output import *
+from feature_functions import *
 from time import sleep
 
 
@@ -43,7 +44,9 @@ def main():
 		if choice == '1':
 			pass
 		elif choice == '2':
-			pass
+			name = user_signup()
+			clear_screen()
+			print(f'{name} your account has successfully created. please login your account')
 		else:
 			global RUNNING
 			RUNNING = False
