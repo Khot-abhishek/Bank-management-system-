@@ -1,0 +1,13 @@
+INFO:root:
+{text}
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:Details by User: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Raj', 'LAST NAME': 'Khot', 'EMAIL': 'Abhishek@yahoo.com', 'GENDER': 'Male', 'PASSWORD': 'Somepassword'}
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Raj', 'LAST NAME': 'Khot', 'EMAIL': 'Abhishek@yahoo.com', 'GENDER': 'Male', 'PASSWORD': 'Somepassword'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['Abhishek', 'Raj', 'Khot', 'Abhishek@yahoo.com', 'Male', 'Somepassword']
+INFO:root:NEW USER CREATED: <QuerySet [<User: Abhishek Khot>]>
+INFO:root:Displayed the main Entry options 
