@@ -1,7 +1,8 @@
 from window_output import *
 from time import sleep
+import random
 import os
-from bank_database.models import User
+from bank_database.models import User, Account
 
 import logging
 logging.basicConfig(filename='BMS_logs.log', level=logging.INFO)
@@ -130,3 +131,14 @@ def authenticate_user(username, password):
 	if current_user:
 		return [True, list( current_user )]   # returning as a 'list' instead of 'QuerySet'
 	return [False, '']
+
+
+def initialize_bank_account_for_user(email, password):
+	logging.info('initialixing bank account')
+	owner = User.objects.get(email=email, password=password)
+	owner_id = owner.id
+	account_number = random.randrange(863298216, 4863298216)
+	new_account = Account(owner=owner, account_type='Savings', account_number = account_number, balance = 0.0)
+	new_account.save()
+
+
