@@ -25,17 +25,20 @@ from window_output import *
 from feature_functions import *
 from time import sleep
 
+# User constants
+USER_PROFILE = {}
+IS_AUTHENTICATED = False
 
-Current_User_details = {}
-USER_LOGGED_IN = False
 
 def clear_screen():
 	os.system('cls')
 	
 
 def main():
-	if USER_LOGGED_IN:
-		pass
+	global IS_AUTHENTICATED
+	
+	if IS_AUTHENTICATED:
+		x = input('you have succesfully logged in -->')
 	else:
 		display_window(ENTRY_OPTION_LIST)
 		print()
@@ -48,7 +51,14 @@ def main():
 			logging.info(f'INVALID Choice :{choice}')
 		clear_screen()
 		if choice == '1':
-			pass
+			login_response = user_login()
+			if login_response[0] == True:
+				IS_AUTHENTICATED = True
+				user_object = login_response[1]
+				USER_PROFILE.update(user_object)
+				logging.info(f'Got login-response. is_authenticated:{IS_AUTHENTICATED}')
+				logging.info(f'logged in user info: {USER_PROFILE}')
+
 		elif choice == '2':
 			name = user_signup()
 			clear_screen()

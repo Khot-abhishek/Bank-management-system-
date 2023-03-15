@@ -128,3 +128,151 @@ INFO:root:Program Terminated
 INFO:root:###################End of current Program Exection#################### 
 
 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:Displayed the main Entry options 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'Somepass'}
+INFO:root:User choose to re-enter login info
+INFO:root:showing login Window to user
+INFO:root:User login credentials: {'EMAIL': 'Abhishek@yahoo.com', 'PASSWORD': 'testuser123'}
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :4
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek', 'PASSWORD': 'asome@kajd'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek', 'PASSWORD': 'asome@kajd'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :3
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'asomfjner', 'PASSWORD': 'asdnora'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'asomfjner', 'PASSWORD': 'asdnora'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'aianoieun', 'PASSWORD': 'asdiubd'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'aianoieun', 'PASSWORD': 'asdiubd'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: aianoieun-asdiubd 
+INFO:root:query returned: current user = <QuerySet []>
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhi@yahoo.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhi@yahoo.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhi@yahoo.com-somepass 
+INFO:root:query returned: current user = <QuerySet []>
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'Abhi@yahoo.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'Abhi@yahoo.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: Abhi@yahoo.com-somepass 
+INFO:root:query returned: current user = <QuerySet []>
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'Abhi@yahoo.com', 'PASSWORD': 'Somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'Abhi@yahoo.com', 'PASSWORD': 'Somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: Abhi@yahoo.com-Somepass 
+INFO:root:query returned: current user = <QuerySet [<User: Abhishek Khot>]>
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :qui
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :4
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:ENT--DISP_WINDOW- args: ('FIRST NAME', 'MIDDLE NAME:', 'LAST NAME', 'EMAIL', 'GENDER', 'PASSWORD') | kwargs: {} 
+INFO:root:Details by User: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Rajkumar', 'LAST NAME': 'Khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Rajkumar', 'LAST NAME': 'Khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'testuser123'} 
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Rajkumar', 'LAST NAME': 'Khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'testuser123'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['Abhishek', 'Rajkumar', 'Khot', 'abhishekkhot122@gmail.com', 'Male', 'testuser123']
+INFO:root:NEW USER CREATED: <QuerySet [<User: Abhishek Khot>]>
+INFO:root:create_new_account-response : ['Created', 'Abhishek']
+INFO:root:Showing The loading animation for : Creating Your Account
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishekkhot122@gmail.com', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishekkhot122@gmail.com', 'PASSWORD': 'testuser123'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishekkhot122@gmail.com-testuser123 
+INFO:root:query returned: current user = <QuerySet [{'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}]>
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishekkhot122@gmail.com', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishekkhot122@gmail.com', 'PASSWORD': 'testuser123'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishekkhot122@gmail.com-testuser123 
+INFO:root:query returned: current user = <QuerySet [{'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}]>
+INFO:root:Got login-response. is_authenticated:True
+INFO:root:logged in user info: {'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}
