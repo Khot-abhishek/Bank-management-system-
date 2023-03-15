@@ -39,7 +39,13 @@ def main():
 	else:
 		display_window(ENTRY_OPTION_LIST)
 		print()
+		logging.info('Displayed the main Entry options ')
 		choice = input('Enter your choice: ')
+		if choice in ['1', '2']:
+			selected_option = [" ", 'LOGIN', 'SIGNUP', 'WRONG_CHOICE']
+			logging.info(f'User choice : {selected_option[int(choice)]}')
+		else:
+			logging.info(f'INVALID Choice :{choice}')
 		clear_screen()
 		if choice == '1':
 			pass
@@ -50,14 +56,18 @@ def main():
 		else:
 			global RUNNING
 			RUNNING = False
-			print('turned off')
+			logging.info('Program Terminated')
 			
 
 
 RUNNING = True
 
 if __name__ == '__main__':
-	
+	text = 'start of the program'.center(70, "-")
+	logging.info("\n{text}")
 	while RUNNING:
 		main()
 		print('running: ',RUNNING)
+	else:
+		text = "End of current Program Exection".center(70, "#")
+		logging.info(f"{text} \n\n")
