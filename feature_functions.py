@@ -20,7 +20,7 @@ def user_signup():
 	logging.info('What to do with the User credentials? : ')
 	correct_option = False
 	while not correct_option:
-		print("(TYPE--> 'Y,y' = create account, 'N,n' = Re-enter details , 'Q,q' to quit)\n")
+		print("(TYPE--> 'Y,y' = create account, 'N,n' = Re-enter details , 'Q,q' to quit)")
 		choice = input('>> :')
 		print('your choice :',choice)
 
