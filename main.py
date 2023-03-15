@@ -64,7 +64,7 @@ RUNNING = True
 
 if __name__ == '__main__':
 	text = 'start of the program'.center(70, "-")
-	logging.info("\n{text}")
+	logging.info(f"\n{text}")
 	while RUNNING:
 		main()
 		print('running: ',RUNNING)

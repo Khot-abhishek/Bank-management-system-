@@ -11,3 +11,120 @@ INFO:root:Entered  create_new_account Function
 INFO:root:values to create: ['Abhishek', 'Raj', 'Khot', 'Abhishek@yahoo.com', 'Male', 'Somepassword']
 INFO:root:NEW USER CREATED: <QuerySet [<User: Abhishek Khot>]>
 INFO:root:Displayed the main Entry options 
+INFO:root:
+{text}
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :abhishek
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+{text}
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:Details by User: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'Raj', 'LAST NAME': 'Khot', 'EMAIL': 'Abhishek@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepassword'}
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'Raj', 'LAST NAME': 'Khot', 'EMAIL': 'Abhishek@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepassword'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['abhishek', 'Raj', 'Khot', 'Abhishek@gmail.com', 'Male', 'Somepassword']
+INFO:root:NEW USER CREATED: <QuerySet [<User: abhishek Khot>]>
+INFO:root:Displayed the main Entry options 
+INFO:root:
+{text}
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:Details by User: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Raj', 'LAST NAME': 'Khot', 'EMAIL': 'ABhi@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Raj', 'LAST NAME': 'Khot', 'EMAIL': 'ABhi@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['Abhishek', 'Raj', 'Khot', 'ABhi@gmail.com', 'Male', 'Somepass']
+INFO:root:
+{text}
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:Details by User: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Rajkumar', 'LAST NAME': 'Khot', 'EMAIL': 'Abhi@yahoo.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Rajkumar', 'LAST NAME': 'Khot', 'EMAIL': 'Abhi@yahoo.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['Abhishek', 'Rajkumar', 'Khot', 'Abhi@yahoo.com', 'Male', 'Somepass']
+INFO:root:NEW USER CREATED: <QuerySet [<User: Abhishek Khot>]>
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :4
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:Details by User: {'FIRST NAME': 'somnath', 'MIDDLE NAME:': 'baba', 'LAST NAME': 'galvi', 'EMAIL': 'som@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'somnath', 'MIDDLE NAME:': 'baba', 'LAST NAME': 'galvi', 'EMAIL': 'som@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['somnath', 'baba', 'galvi', 'som@gmail.com', 'Male', 'Somepass']
+INFO:root:NEW USER CREATED: <QuerySet [<User: somnath galvi>]>
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :4
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :abhishek
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:Details by User: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Rajkumar', 'LAST NAME': 'khot', 'EMAIL': 'Aniket@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'Abhishek', 'MIDDLE NAME:': 'Rajkumar', 'LAST NAME': 'khot', 'EMAIL': 'Aniket@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['Abhishek', 'Rajkumar', 'khot', 'Aniket@gmail.com', 'Male', 'Somepass']
+INFO:root:NEW USER CREATED: <QuerySet [<User: Abhishek Khot>, <User: Abhishek khot>]>
+INFO:root:create_new_account-response : ['created', 'Abhishek']
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :3
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:Details by User: {'FIRST NAME': 'kunal', 'MIDDLE NAME:': 'babar', 'LAST NAME': 'kamra', 'EMAIL': 'kunal@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'kunal', 'MIDDLE NAME:': 'babar', 'LAST NAME': 'kamra', 'EMAIL': 'kunal@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'Somepass'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['kunal', 'babar', 'kamra', 'kunal@gmail.com', 'Male', 'Somepass']
+INFO:root:NEW USER CREATED: <QuerySet [<User: kunal kamra>]>
+INFO:root:create_new_account-response : ['Created', 'kunal']
+INFO:root:Showing The loading animation for : Creating Your Account
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :4
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+

@@ -10,6 +10,23 @@ logging.basicConfig(filename='BMS_logs.log', level=logging.INFO)
 def clear_screen():
 	os.system('cls')
 
+
+def loading_animation(title = None, speed=0.2):
+	"""
+	a simple loading bar animation where ,title = for which operation
+	the animation is for (LOGIN, Creating New Account,etc)
+	"""
+	logging.info(f"Showing The loading animation for : {title}")
+	if title == None:
+		title = 'Loading'
+	for i in range(1,25):       # animated progress bar
+		loading_bar = '#'* i
+		loading_bar = loading_bar.ljust(25,'.')
+		print(f'{title} [' + loading_bar + ']')
+		sleep(speed)
+		clear_screen()
+
+
 def user_signup():
 	location = 'user_signup'
 	logging.info('Enter the Signup Function')
@@ -41,11 +58,13 @@ def user_signup():
 			
 			correct_option = True
 			sleep(4)
-			responce = create_new_account(signup_vals)
+			response = create_new_account(signup_vals)
+			logging.info(f'create_new_account-response : {response}')
+			if response is not None:
+				if response[0] == 'Created':
 
-			if responce is not None:
-				if responce[0] == 'Created':
-					print(f'{responce[1]} : Your Account was successfully created..')
+					loading_animation('Creating Your Account')
+					print(f'{response[1]} : Your Account was successfully created..')
 					sleep(3)
 					clear_screen()
 					print('Login Using you EMAIL & PASSWORD..\n')
@@ -54,6 +73,7 @@ def user_signup():
 				clear_screen()
 				print('Something went wrong with your credentials , Please Enter proper Details.')
 				user_signup()
+	return response[1]
 
 	
 
@@ -69,8 +89,8 @@ def create_new_account(account_details):
 	qs = User.objects.filter(f_name=f_name)
 	if qs:
 		logging.info(f'NEW USER CREATED: {qs}')
-		sleep(3)
-		return ['created', f_name] 
+		return ['Created', f_name] 
 	else:
 		logging.ERROR('Something went wrong with either User created or his retrievel after creation')
 		return 
+	
