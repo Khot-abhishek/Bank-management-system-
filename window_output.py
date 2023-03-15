@@ -72,13 +72,14 @@ LOGIN_OPTION_LIST = [
 LOGIN_VARS = ['EMAIL', 'PASSWORD']
 
 SIGNUP_OPTION_LIST = [
-    					' FIRST NAME: ',
-                        ' LAST NAME:  ',
-                        ' EMAIL:      ',
-                        ' GENDER:     ',
-                        ' PASSWORD:   ',
+    					' FIRST NAME:  ',
+                        ' MIDDLE NAME: ',
+                        ' LAST NAME:   ',
+                        ' EMAIL:       ',
+                        ' GENDER:      ',
+                        ' PASSWORD:    ',
     ]
-SIGNUP_VARS = ['FIRST NAME', 'LAST NAME', 'EMAIL', 'GENDER', 'PASSWORD']
+SIGNUP_VARS = ['FIRST NAME', 'MIDDLE NAME:','LAST NAME', 'EMAIL', 'GENDER', 'PASSWORD']
 
 BANKING_OPTIONS_LIST = [
     '  1.Withdraw Amount',
