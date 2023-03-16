@@ -80,7 +80,6 @@ def main():
 				user_account = Account.objects.get(owner_id=user_object.id)
 				logging.info(f"Initializing the BANK-OPERATION-obj to carryout banking \noperations for current logged-in user")
 				bank_operation_user = BankOperation(user_object, user_account)
-				global bank_operation_user
 
 		elif choice == '2':
 			user_signup()
