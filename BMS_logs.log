@@ -434,3 +434,30 @@ INFO:root:authenticate: getting user from database: santosh@gmail.com-somepass
 INFO:root:query returned: current user = <QuerySet [{'id': 26, 'f_name': 'santosh', 'm_name': 'baba', 'l_name': 'patil', 'email': 'santosh@gmail.com', 'gender': 'Male', 'password': 'somepass'}]>
 INFO:root:Got login-response. is_authenticated:True
 INFO:root:logged in user info: {'id': 26, 'f_name': 'santosh', 'm_name': 'baba', 'l_name': 'patil', 'email': 'santosh@gmail.com', 'gender': 'Male', 'password': 'somepass'}
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'santosh@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'santosh@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: santosh@gmail.com-somepass 
+INFO:root:query returned: current user = <QuerySet [{'id': 26, 'f_name': 'santosh', 'm_name': 'baba', 'l_name': 'patil', 'email': 'santosh@gmail.com', 'gender': 'Male', 'password': 'somepass'}]>
+INFO:root:Got login-response. is_authenticated:True
+INFO:root:logged in user info: {'id': 26, 'f_name': 'santosh', 'm_name': 'baba', 'l_name': 'patil', 'email': 'santosh@gmail.com', 'gender': 'Male', 'password': 'somepass'}
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
