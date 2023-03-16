@@ -50,7 +50,16 @@ def display_remark_box(remark):
     print('"'*80)
 
 
-
+def display_operations_window(text):
+    output_options = ['  1.Go to Main Window', '  2.Quit'] 
+    window_header()
+    print('#'+ text.ljust(77,' '), '#')
+    print('#'+ '-'.center(77, '-'), + '#')
+    print('#'+ ' '*78 +'#')
+    print('#'+ ' '*78 +'#')
+    for option in output_options:
+        print('#'+ option.ljust(77,' '), '#')
+    window_footer()
 
 
 ################# Constants ################# 
@@ -91,4 +100,5 @@ BANKING_OPTIONS_LIST = [
     '  4.Account Statement',
     '  5.Change PIN',
     '  6.Log-Out',
+    '  7.QUIT'
 ]
