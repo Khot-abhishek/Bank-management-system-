@@ -58,14 +58,15 @@ def main():
 				logging.info(f'CHOICE-3: bank_operation_user: {bank_operation_user}')
 				bank_operation_user.show_balance()
 			elif choice == '4':
-				bank_operation_user.show_account_statement()
+				choice = bank_operation_user.show_account_statement()
+				if choice:
+					RUNNING = False
 			elif choice == '5':
 				bank_operation_user.change_pin()
 			elif choice == '6':
 				IS_AUTHENTICATED = False
 				bank_operation_user = None
 			elif choice == '7':
-				global RUNNING
 				RUNNING = False	
 	else:
 		display_window(ENTRY_OPTION_LIST)

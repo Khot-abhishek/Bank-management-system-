@@ -1,13 +1,19 @@
 from bank_database.models import User, Account, Statement
 from window_output import *
+import os
 RUNNING = True
+
+
+
+
 class BankOperation:
 
     def __init__(self, current_user, user_account):
         self.current_user = current_user
         self.user_account = user_account
+
     def __str__(self):
-        return  f'{self.current_user.f_name}'
+        return  f'Bank Operations For : {self.current_user.f_name}'
     
     def deposite_amount(self):
         logging.info('Entered deposite_amount FUNCTION')
@@ -55,4 +61,10 @@ class BankOperation:
         pass
 
     def show_account_statement(self):
-        pass
+        statements = Statement.objects.filter(st_owner_id=self.user_account.id).values()
+        display_statements(*statements)
+        os.system('cls')
+        print('\nEnter  1.Go to Main window      2.Quit')
+        choice = input('Enter : ')
+        if choice == '2':
+            return True

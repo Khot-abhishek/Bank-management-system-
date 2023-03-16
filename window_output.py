@@ -62,6 +62,32 @@ def display_operations_window(text=None):
         print('#'+ option.ljust(77,' ') + '#')
     window_footer()
 
+def display_statements(*all_statements):
+    # 10-10-25-10-10-15
+    print('#'*97)
+    print('#' + 'Sl.no'.center(10) + '|' + 'ID'.center(10) +'|' + 'Date'.center(10) + '|' + 'Description'.center(25) + '|' + 'Debited'.center(10) + '|' + 'Credited'.center(10) + '|' + 'Balance'.center(15) + '#')
+    print('#'*97)
+    print('#' + ' '.center(85) + '#')
+
+    main_list = []
+    spacing = [10,10,10,25,10,10,15]
+    for record in all_statements:
+        logging.info(f'record: {record}')
+        record_vals = record.values()
+        logging.info(f'record-vals: {record_vals}')
+
+        list = []
+        for val,spac in zip(record_vals, spacing):
+            val = str(val)
+            text = val.center(spac)
+            list.append(text)
+        text = '|'.join(list)
+        text = '|' + text + '|'
+        print(text)
+        print('-'*97)
+    print('#'*97)
+    
+
 
 ################# Constants ################# 
 
