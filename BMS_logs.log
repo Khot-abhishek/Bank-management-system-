@@ -641,3 +641,203 @@ INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {}
 INFO:root:###################End of current Program Exection#################### 
 
 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Bank Operations For : Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Entered deposite_amount FUNCTION
+INFO:root:Entered deposite_amount : 12000
+INFO:root:Created a statement for tte current (deposite) transaction
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Entered deposite_amount FUNCTION
+INFO:root:Entered deposite_amount : 1400
+INFO:root:Created a statement for tte current (deposite) transaction
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Bank Operations For : Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Bank Operations For : Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Bank Operations For : Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Bank Operations For : Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:record: {'id': 1, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 9328.0, 'balance': 9328.0}
+INFO:root:record: {'id': 2, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 5423.0, 'balance': 14751.0}
+INFO:root:record: {'id': 3, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 9328.0, 'created': 0.0, 'balance': 5423.0}
+INFO:root:record: {'id': 4, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 12000.0, 'balance': 17423.0}
+INFO:root:record: {'id': 5, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 1400.0, 'balance': 18823.0}
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Bank Operations For : Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:record: {'id': 1, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 9328.0, 'balance': 9328.0}
+INFO:root:record-vals: dict_values([1, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 9328.0, 9328.0])
+INFO:root:record: {'id': 2, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 5423.0, 'balance': 14751.0}
+INFO:root:record-vals: dict_values([2, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 5423.0, 14751.0])
+INFO:root:record: {'id': 3, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 9328.0, 'created': 0.0, 'balance': 5423.0}
+INFO:root:record-vals: dict_values([3, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 9328.0, 0.0, 5423.0])
+INFO:root:record: {'id': 4, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 12000.0, 'balance': 17423.0}
+INFO:root:record-vals: dict_values([4, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 12000.0, 17423.0])
+INFO:root:record: {'id': 5, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 1400.0, 'balance': 18823.0}
+INFO:root:record-vals: dict_values([5, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 1400.0, 18823.0])
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Bank Operations For : Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:record: {'id': 1, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 9328.0, 'balance': 9328.0}
+INFO:root:record-vals: dict_values([1, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 9328.0, 9328.0])
+INFO:root:record: {'id': 2, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 5423.0, 'balance': 14751.0}
+INFO:root:record-vals: dict_values([2, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 5423.0, 14751.0])
+INFO:root:record: {'id': 3, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 9328.0, 'created': 0.0, 'balance': 5423.0}
+INFO:root:record-vals: dict_values([3, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 9328.0, 0.0, 5423.0])
+INFO:root:record: {'id': 4, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 12000.0, 'balance': 17423.0}
+INFO:root:record-vals: dict_values([4, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 12000.0, 17423.0])
+INFO:root:record: {'id': 5, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 1400.0, 'balance': 18823.0}
+INFO:root:record-vals: dict_values([5, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 1400.0, 18823.0])
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Bank Operations For : Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:record: {'id': 1, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 9328.0, 'balance': 9328.0}
+INFO:root:record-vals: dict_values([1, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 9328.0, 9328.0])
+INFO:root:record: {'id': 2, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 5423.0, 'balance': 14751.0}
+INFO:root:record-vals: dict_values([2, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 5423.0, 14751.0])
+INFO:root:record: {'id': 3, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 9328.0, 'created': 0.0, 'balance': 5423.0}
+INFO:root:record-vals: dict_values([3, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 9328.0, 0.0, 5423.0])
+INFO:root:record: {'id': 4, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 12000.0, 'balance': 17423.0}
+INFO:root:record-vals: dict_values([4, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 12000.0, 17423.0])
+INFO:root:record: {'id': 5, 'st_owner_id': 2, 'transaction_date': datetime.date(2023, 3, 16), 'description': 'APP Withdraw', 'debited': 0.0, 'created': 1400.0, 'balance': 18823.0}
+INFO:root:record-vals: dict_values([5, 2, datetime.date(2023, 3, 16), 'APP Withdraw', 0.0, 1400.0, 18823.0])
+INFO:root:###################End of current Program Exection#################### 
+
+

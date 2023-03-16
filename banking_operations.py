@@ -4,8 +4,6 @@ import os
 RUNNING = True
 
 
-
-
 class BankOperation:
 
     def __init__(self, current_user, user_account):
