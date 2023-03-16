@@ -89,6 +89,6 @@ BANKING_OPTIONS_LIST = [
     '  2.Deposite Amount',
     '  3.Balance Enquiry',
     '  4.Account Statement',
-    '  5.Change PIN'
-    '  6.Log-Out'
+    '  5.Change PIN',
+    '  6.Log-Out',
 ]

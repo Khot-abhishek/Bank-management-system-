@@ -38,7 +38,9 @@ def main():
 	global IS_AUTHENTICATED
 	
 	if IS_AUTHENTICATED:
-		x = input('you have succesfully logged in -->')
+		logging.info('Displaying Banking OPtions after autherization ')
+		display_entry_window(BANKING_OPTIONS_LIST)
+		choice = input('\nEnter your choice: ')
 	else:
 		display_window(ENTRY_OPTION_LIST)
 		print()

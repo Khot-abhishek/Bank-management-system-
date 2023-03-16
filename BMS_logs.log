@@ -276,3 +276,161 @@ INFO:root:authenticate: getting user from database: abhishekkhot122@gmail.com-te
 INFO:root:query returned: current user = <QuerySet [{'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}]>
 INFO:root:Got login-response. is_authenticated:True
 INFO:root:logged in user info: {'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishekkhot122@gmail.com', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishekkhot122@gmail.com', 'PASSWORD': 'testuser123'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishekkhot122@gmail.com-testuser123 
+INFO:root:query returned: current user = <QuerySet [{'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}]>
+INFO:root:Got login-response. is_authenticated:True
+INFO:root:logged in user info: {'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishekkhot122@gmail.com', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishekkhot122@gmail.com', 'PASSWORD': 'testuser123'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishekkhot122@gmail.com-testuser123 
+INFO:root:query returned: current user = <QuerySet [{'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}]>
+INFO:root:Got login-response. is_authenticated:True
+INFO:root:logged in user info: {'id': 21, 'f_name': 'Abhishek', 'm_name': 'Rajkumar', 'l_name': 'Khot', 'email': 'abhishekkhot122@gmail.com', 'gender': 'Male', 'password': 'testuser123'}
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:ENT--DISP_WINDOW- args: ('FIRST NAME', 'MIDDLE NAME:', 'LAST NAME', 'EMAIL', 'GENDER', 'PASSWORD') | kwargs: {} 
+INFO:root:Details by User: {'FIRST NAME': 'aniket', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'aniket@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'FIRST NAME': 'aniket', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'aniket@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'testuser123'} 
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'aniket', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'aniket@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'testuser123'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['aniket', 'raj', 'khot', 'aniket@gmail.com', 'Male', 'testuser123']
+INFO:root:NEW USER CREATED: <QuerySet [<User: aniket khot>]>
+INFO:root:initialixing bank account
+INFO:root:owner ID: 22  obj_val: 22
+INFO:root:create_new_account-response : ['Created', 'aniket']
+INFO:root:Showing The loading animation for : Creating Your Account
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :3
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:ENT--DISP_WINDOW- args: ('FIRST NAME', 'MIDDLE NAME:', 'LAST NAME', 'EMAIL', 'GENDER', 'PASSWORD') | kwargs: {} 
+INFO:root:Details by User: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'} 
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['abhishek', 'raj', 'khot', 'abhishekkhot122@gmail.com', 'male', 'testuser123']
+INFO:root:NEW USER CREATED: <QuerySet [<User: abhishek khot>]>
+INFO:root:initialixing bank account
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:ENT--DISP_WINDOW- args: ('FIRST NAME', 'MIDDLE NAME:', 'LAST NAME', 'EMAIL', 'GENDER', 'PASSWORD') | kwargs: {} 
+INFO:root:Details by User: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'khot', 'LAST NAME': 'khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'khot', 'LAST NAME': 'khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'} 
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'khot', 'LAST NAME': 'khot', 'EMAIL': 'abhishekkhot122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['abhishek', 'khot', 'khot', 'abhishekkhot122@gmail.com', 'male', 'testuser123']
+INFO:root:NEW USER CREATED: <QuerySet [<User: abhishek khot>]>
+INFO:root:initialixing bank account
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:ENT--DISP_WINDOW- args: ('FIRST NAME', 'MIDDLE NAME:', 'LAST NAME', 'EMAIL', 'GENDER', 'PASSWORD') | kwargs: {} 
+INFO:root:Details by User: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'abhishek122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'abhishek122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'} 
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'abhishek', 'MIDDLE NAME:': 'raj', 'LAST NAME': 'khot', 'EMAIL': 'abhishek122@gmail.com', 'GENDER': 'male', 'PASSWORD': 'testuser123'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['abhishek', 'raj', 'khot', 'abhishek122@gmail.com', 'male', 'testuser123']
+INFO:root:NEW USER CREATED: <QuerySet [<User: abhishek khot>]>
+INFO:root:initialixing bank account
+INFO:root:create_new_account-response : ['Created', 'abhishek']
+INFO:root:Showing The loading animation for : Creating Your Account
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:INVALID Choice :4
+INFO:root:Program Terminated
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : SIGNUP
+INFO:root:Enter the Signup Function
+INFO:root:ENT--DISP_WINDOW- args: ('FIRST NAME', 'MIDDLE NAME:', 'LAST NAME', 'EMAIL', 'GENDER', 'PASSWORD') | kwargs: {} 
+INFO:root:Details by User: {'FIRST NAME': 'santosh', 'MIDDLE NAME:': 'baba', 'LAST NAME': 'patil', 'EMAIL': 'santosh@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'FIRST NAME': 'santosh', 'MIDDLE NAME:': 'baba', 'LAST NAME': 'patil', 'EMAIL': 'santosh@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'somepass'} 
+INFO:root:What to do with the User credentials? : 
+INFO:root:User choose to signup with his given credentials
+INFO:root:User-credentials: {'FIRST NAME': 'santosh', 'MIDDLE NAME:': 'baba', 'LAST NAME': 'patil', 'EMAIL': 'santosh@gmail.com', 'GENDER': 'Male', 'PASSWORD': 'somepass'}
+INFO:root:Entered  create_new_account Function
+INFO:root:values to create: ['santosh', 'baba', 'patil', 'santosh@gmail.com', 'Male', 'somepass']
+INFO:root:NEW USER CREATED: <QuerySet [<User: santosh patil>]>
+INFO:root:create_new_account-response : ['Created', 'santosh']
+INFO:root:Showing The loading animation for : Creating Your Account
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'santosh@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'santosh@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: santosh@gmail.com-somepass 
+INFO:root:query returned: current user = <QuerySet [{'id': 26, 'f_name': 'santosh', 'm_name': 'baba', 'l_name': 'patil', 'email': 'santosh@gmail.com', 'gender': 'Male', 'password': 'somepass'}]>
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'santosh@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'santosh@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: santosh@gmail.com-somepass 
+INFO:root:query returned: current user = <QuerySet [{'id': 26, 'f_name': 'santosh', 'm_name': 'baba', 'l_name': 'patil', 'email': 'santosh@gmail.com', 'gender': 'Male', 'password': 'somepass'}]>
+INFO:root:Got login-response. is_authenticated:True
+INFO:root:logged in user info: {'id': 26, 'f_name': 'santosh', 'm_name': 'baba', 'l_name': 'patil', 'email': 'santosh@gmail.com', 'gender': 'Male', 'password': 'somepass'}
