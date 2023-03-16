@@ -1,34 +1,46 @@
 from bank_database.models import User, Account, Statement
 from window_output import *
-
-
+RUNNING = True
 class BankOperation:
 
     def __init__(self, current_user, user_account):
         self.current_user = current_user
         self.user_account = user_account
+    def __str__(self):
+        return  f'{self.current_user.f_name}'
     
     def deposite_amount(self):
-        pass
+        logging.info('Entered deposite_amount FUNCTION')
+        text = 'Enter the Deposite amount'
+        display_operations_window(text)
+        amount = input('Enter amount: ')
+        logging.info(f'Entered deposite_amount : {amount}')
+        old_bal = self.user_account.balance
+        new_bal = float(old_bal) + float(amount)
+        self.user_account.balance = new_bal
+        self.user_account.save()
+        statement = Statement(description='APP Withdraw', debited=0.0, created=amount, balance=new_bal, st_owner_id=self.user_account.id)
+        statement.save()
+        logging.info('Created a statement for te current transaction')
+        self.show_balance()
+
 
     def withdraw_amount(self):
         pass
 
     def show_balance(self):
+        logging.info('Entered show_balance--')
         balance = self.user_account.balance
-        text = f'Current Account Balance:  {balance}'.center(78)
+        text = f'Current Account Balance:  Rs.{balance}'.center(78)
         display_operations_window(text)
         choice = input('Your Choice : ')
-        if choice
+        if choice == '2':
+            global RUNNING
+            RUNNING = False           
+            
 
     def change_pin(self):
         pass
 
     def show_account_statement(self):
-        pass
-    
-    def get_user_logged_out(self):
-        pass
-
-    def end_program(self):
         pass
