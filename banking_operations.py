@@ -21,12 +21,24 @@ class BankOperation:
         self.user_account.save()
         statement = Statement(description='APP Withdraw', debited=0.0, created=amount, balance=new_bal, st_owner_id=self.user_account.id)
         statement.save()
-        logging.info('Created a statement for te current transaction')
+        logging.info('Created a statement for tte current (deposite) transaction')
         self.show_balance()
 
 
     def withdraw_amount(self):
-        pass
+        logging.info('Entered withdraw_amount FUNCTION')
+        text = 'Enter the withdraw amount amount'
+        display_operations_window(text)
+        amount = input('Enter amount: ')
+        logging.info(f'Entered withdraw_amount : {amount}')
+        old_bal = self.user_account.balance
+        new_bal = float(old_bal) - float(amount)
+        self.user_account.balance = new_bal
+        self.user_account.save()
+        statement = Statement(description='APP Withdraw', debited=amount, created=0.0, balance=new_bal, st_owner_id=self.user_account.id)
+        statement.save()
+        logging.info('Created a statement for tte current (withdraw) transaction')
+        self.show_balance()
 
     def show_balance(self):
         logging.info('Entered show_balance--')

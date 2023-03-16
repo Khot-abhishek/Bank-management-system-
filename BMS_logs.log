@@ -461,3 +461,183 @@ INFO:root:Displaying Banking OPtions after autherization
 INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
 INFO:root:Displaying Banking OPtions after autherization 
 INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:CHOICE-3: bank_operation_user: Abhishek
+INFO:root:Entered show_balance--
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:CHOICE-3: bank_operation_user: Abhishek
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:CHOICE-3: bank_operation_user: Abhishek
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Entered deposite_amount FUNCTION
+INFO:root:Entered deposite_amount : 1023
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:CHOICE-3: bank_operation_user: Abhishek
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Entered deposite_amount FUNCTION
+INFO:root:Entered deposite_amount : 9328
+INFO:root:Created a statement for te current transaction
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:###################End of current Program Exection#################### 
+
+
+INFO:root:
+-------------------------start of the program-------------------------
+INFO:root:DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displayed the main Entry options 
+INFO:root:User choice : LOGIN
+INFO:root:showing login Window to user
+INFO:root:ENT--DISP_WINDOW- args: ('EMAIL', 'PASSWORD') | kwargs: {} 
+INFO:root:User login credentials: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'}
+INFO:root:DISP_WINDOW- args: () | kwargs: {'EMAIL': 'abhishek@gmail.com', 'PASSWORD': 'somepass'} 
+INFO:root:User waitung for login authentication
+INFO:root:Showing The loading animation for : Logging In
+INFO:root:authenticate: getting user from database: abhishek@gmail.com-somepass 
+INFO:root:authenticating user abhishek@gmail.com, somepass
+INFO:root:Initializing the BANK-OPERATION-obj to carryout banking 
+operations for current logged-in user
+INFO:root:bank_operation_user: Abhishek
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:CHOICE-3: bank_operation_user: Abhishek
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:CHOICE-3: bank_operation_user: Abhishek
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Entered deposite_amount FUNCTION
+INFO:root:Entered deposite_amount : 5423
+INFO:root:Created a statement for tte current (deposite) transaction
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:Entered withdraw_amount FUNCTION
+INFO:root:Entered withdraw_amount : 9328
+INFO:root:Created a statement for tte current (withdraw) transaction
+INFO:root:Entered show_balance--
+INFO:root:Displaying Banking OPtions after autherization 
+INFO:root:ENT--DISP_WINDOW- args: () | kwargs: {} 
+INFO:root:###################End of current Program Exection#################### 
+
+
