@@ -57,14 +57,11 @@ def main():
 			if login_response[0] == True:
 				IS_AUTHENTICATED = True
 				user_object = login_response[1]
-				USER_PROFILE.update(user_object)
-				logging.info(f'Got login-response. is_authenticated:{IS_AUTHENTICATED}')
-				logging.info(f'logged in user info: {USER_PROFILE}')
+				
 
 		elif choice == '2':
-			name = user_signup()
+			user_signup()
 			clear_screen()
-			print(f'{name} your account has successfully created. please login your account')
 		else:
 			global RUNNING
 			RUNNING = False

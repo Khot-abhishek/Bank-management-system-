@@ -76,7 +76,6 @@ def user_signup():
 				clear_screen()
 				print('Something went wrong with your credentials , Please Enter proper Details.')
 				user_signup()
-	return response[1]
 
 	
 
@@ -92,11 +91,29 @@ def create_new_account(account_details):
 	qs = User.objects.filter(f_name=f_name)
 	if qs:
 		logging.info(f'NEW USER CREATED: {qs}')
+		initialize_bank_account_for_user(email, password)
 		return ['Created', f_name] 
 	else:
 		logging.ERROR('Something went wrong with either User created or his retrievel after creation')
 		return 
-	
+
+
+def initialize_bank_account_for_user(email, password):
+	logging.info('initialixing bank account')
+	account_owner = User.objects.get(email=email, password=password)
+	owner_id = account_owner.id
+	account_number = random.randrange(863298216, 4863298216)
+	new_account = Account(owner=account_owner, account_type='Savings', account_number = account_number, balance = 0.0)
+	new_account.save()
+	try:
+		logging.info('Trying to retrieve the newly created account')
+		user_account = Account.objects.get(owner_id=account_owner.id)
+	except:
+		logging.error(f'Something went Wrong , Could not get the Account associated with :{account_owner.f_name}')
+
+
+
+
 def user_login():
 	logging.info('showing login Window to user')
 	login_vals = display_entry_window(LOGIN_OPTION_LIST, *LOGIN_VARS)
@@ -114,31 +131,33 @@ def user_login():
 		logging.info('User waitung for login authentication')
 		loading_animation('Logging In')
 		username, password = list( login_vals.values() )
-		is_authenticated, user_object = authenticate_user(username, password)
+		is_authenticated, current_user_obj = authenticate_user(username, password)
 		if is_authenticated:
-			return (is_authenticated, user_object[0])  # since it's a list of dict ,returning the Dict as individual obj
+			return (is_authenticated, current_user_obj)  # since it's a list of dict ,returning the Dict as individual obj
 		else:
-			display_remark_box('Wrong Username or Password, please enter corrent info')
-			user_login()
+			display_remark_box('Wrong Username or Password, please LOGIN with  corrent Username and Password')
 	else:
 		clear_screen()
 	return [False, '']
 
 def authenticate_user(username, password):
 	logging.info(f'authenticate: getting user from database: {username}-{password} ')
+	try:
+		logging.info(f"authenticating user {username}, {password}")
+		current_user = User.objects.get(email=username, password=password)
+	except:
+		logging.error('Invalid username/password, unable to authenticate user')
+		current_user = None
+	
+	if current_user is None:
+		return [False ,'']
+	return [True, current_user]
+
+
+
 	current_user = User.objects.filter(email=username, password=password).values()
 	logging.info(f"query returned: current user = {current_user}")
 	if current_user:
 		return [True, list( current_user )]   # returning as a 'list' instead of 'QuerySet'
 	return [False, '']
-
-
-def initialize_bank_account_for_user(email, password):
-	logging.info('initialixing bank account')
-	owner = User.objects.get(email=email, password=password)
-	owner_id = owner.id
-	account_number = random.randrange(863298216, 4863298216)
-	new_account = Account(owner=owner, account_type='Savings', account_number = account_number, balance = 0.0)
-	new_account.save()
-
 
